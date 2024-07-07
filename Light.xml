@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-07-07 10:08:24 by Eclipse SUMO netedit Version 1.20.0
+<!-- generated on 2024-07-07 10:26:19 by Eclipse SUMO netedit Version 1.20.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
 
     <input>
@@ -34,17 +34,17 @@
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <tlLogic id="J2" type="static" programID="0" offset="0">
-        <phase duration="10" state="grrGGGGrgrrrrrrgrrGGGGrgrrrrrrrrrr"/>
+        <phase duration="60" state="grrGGGGrgrrrrrrgrrGGGGrgrrrrrrrrrr"/>
         <phase duration="3"  state="grryGGGrgrrrrrrgrryGGGrgrrrrrrrrrr"/>
-        <phase duration="20" state="gGrrGGGrgrrrrrrgGrrGGGrgrrrrrrrGrG"/>
+        <phase duration="120" state="gGrrGGGrgrrrrrrgGrrGGGrgrrrrrrrGrG"/>
         <phase duration="3"  state="grrryyyrgrrrrrrgrrryyyrgrrrrrrrrrr"/>
-        <phase duration="15" state="grrGrrrGgrrGrrrgrrGrrrGgrrGrrrrrrr"/>
+        <phase duration="90" state="grrGrrrGgrrGrrrgrrGrrrGgrrGrrrrrrr"/>
         <phase duration="3"  state="grryrrrygrrGrrrgrryrrrygrrGrrrrrrr"/>
-        <phase duration="10" state="grrrrrrrgrrGGGrgrrrrrrrgrrGGGrrrrr"/>
+        <phase duration="60" state="grrrrrrrgrrGGGrgrrrrrrrgrrGGGrrrrr"/>
         <phase duration="3"  state="grrrrrrrgrryGGrgrrrrrrrgrryGGrrrrr"/>
-        <phase duration="20" state="grrrrrrrgGrrGGrgrrrrrrrgGrrGGrGrGr"/>
+        <phase duration="120" state="grrrrrrrgGrrGGrgrrrrrrrgGrrGGrGrGr"/>
         <phase duration="3"  state="grrrrrrrgrrryyrgrrrrrrrgrrryyrrrrr"/>
-        <phase duration="15" state="grrGrrrrgrrGrrGgrrGrrrrgrrGrrGrrrr"/>
+        <phase duration="90" state="grrGrrrrgrrGrrGgrrGrrrrgrrGrrGrrrr"/>
         <phase duration="3"  state="grrGrrrrgrryrrygrrGrrrrgrryrryrrrr"/>
     </tlLogic>
 </additional>
