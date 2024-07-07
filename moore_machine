@@ -1,0 +1,39 @@
+// Moore Machine
+digraph {
+	Q0 [label="Q0
+grrGGGGrgrrrrrrgrrGGGGrgrrrrrrrrrr"]
+	Q1 [label="Q1
+grryGGGrgrrrrrrgrryGGGrgrrrrrrrrrr"]
+	Q2 [label="Q2
+gGrrGGGrgrrrrrrgGrrGGGrgrrrrrrrGrG"]
+	Q3 [label="Q3
+grrryyyrgrrrrrrgrrryyyrgrrrrrrrrrr"]
+	Q4 [label="Q4
+grrGrrrGgrrGrrrgrrGrrrGgrrGrrrrrrr"]
+	Q5 [label="Q5
+grryrrrygrrGrrrgrryrrrygrrGrrrrrrr"]
+	Q6 [label="Q6
+grrrrrrrgrrGGGrgrrrrrrrgrrGGGrrrrr"]
+	Q7 [label="Q7
+grrrrrrrgrryGGrgrrrrrrrgrryGGrrrrr"]
+	Q8 [label="Q8
+grrrrrrrgGrrGGrgrrrrrrrgGrrGGrGrGr"]
+	Q9 [label="Q9
+grrrrrrrgrrryyrgrrrrrrrgrrryyrrrrr"]
+	Q10 [label="Q10
+grrGrrrrgrrGrrGgrrGrrrrgrrGrrGrrrr"]
+	Q11 [label="Q11
+grrGrrrrgrryrrygrrGrrrrgrryrryrrrr"]
+	Q0 -> Q1 [label="tick(60)"]
+	Q1 -> Q2 [label="tick(3)"]
+	Q2 -> Q3 [label="tick(120)"]
+	Q3 -> Q4 [label="tick(3)"]
+	Q4 -> Q5 [label="tick(90)"]
+	Q5 -> Q6 [label="tick(3)"]
+	Q6 -> Q7 [label="tick(60)"]
+	Q7 -> Q8 [label="tick(3)"]
+	Q8 -> Q9 [label="tick(120)"]
+	Q9 -> Q10 [label="tick(3)"]
+	Q10 -> Q11 [label="tick(90)"]
+	Q11 -> Q0 [label="tick(3)"]
+}
